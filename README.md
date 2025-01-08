@@ -52,3 +52,11 @@ WHERE e.id = 1;
   (5,4);
   ```  
 ![img_5.png](img_5.png)
+
+- Ajout des nouveaux genres de livre:
+```
+INSERT INTO genre (genre)
+VALUES ('D'),
+('E');
+```
+![img_6.png](img_6.png)
