@@ -1,0 +1,4 @@
+INSERT INTO emprunt(EMPRUNTEUR_ID, LIVRE_ID)
+VALUES (1,1),
+(1,2),
+(4,3);
