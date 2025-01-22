@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS emprunt (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     emprunteur_id INT,
     livre_id INT,
     FOREIGN KEY (emprunteur_id) REFERENCES emprunteur(id),
